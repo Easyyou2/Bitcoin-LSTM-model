@@ -14,7 +14,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 
 # Load and Prepare the Data
-file_path = r'C:\\Users\\Admin\\Downloads\\Bitcoin_history.csv'
+file_path = r'C:\\Users\\Admin\\Downloads\\Bitcoin_history.csv' #replace this with whatever your file path is
 bitcoin_data = pd.read_csv(file_path)
 
 # Convert 'Date' to datetime and 'Price' to float
