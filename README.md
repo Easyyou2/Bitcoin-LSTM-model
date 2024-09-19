@@ -1,11 +1,14 @@
-# HIV-Prevalence-Analysis
-
-This is a simple R script that utilizes ggplot to create a time series analysis of HIV prevalence by year for each country in the dataset.
+#Bitcoin Price Prediction Using LSTM and ARIMA Models
 
 
-Estimated HIV prevalence was obtained from the gapminder website https://www.gapminder.org/data/ –
+This project explores time series forecasting of Bitcoin prices using two advanced methods: LSTM (Long Short-Term Memory) neural networks and ARIMA (AutoRegressive Integrated Moving Average) models. Bitcoin’s volatility presents unique challenges in prediction, making it an ideal candidate for these techniques.
 
-Estimated number of people living with HIV per 100 population of age group 15-49.
+The LSTM model is designed to capture long-term dependencies in sequential data, while ARIMA serves as a statistical baseline. The project involves extensive data preprocessing, model training, and evaluation using key metrics such as MAE, RMSE, and R-squared. The project also includes visualizations to compare predicted vs. actual Bitcoin prices over time.
 
-Original data source is the UNAIDS online database at http://www.aidsinfoonline.org
+Key tools and technologies used:
 
+Python, TensorFlow, and Keras for model building and training
+Pandas and Numpy for data preprocessing
+Matplotlib for visualizing predictions and trends
+LSTM and ARIMA for time series modeling
+This repository contains the code, data, and documentation to replicate the analysis, as well as detailed insights into the model performance.
